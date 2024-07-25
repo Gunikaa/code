@@ -1,4 +1,5 @@
-export ZONE=us-east1-d
+export ZONE=europe-west4-a
+
 
 gcloud beta container clusters create gmp-cluster --num-nodes=1 --zone $ZONE --enable-managed-prometheus
 
